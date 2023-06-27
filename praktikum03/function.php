@@ -1,11 +1,12 @@
 <?php
-function hitungUmur($tahunLahir, $tahunSekarang){
+function hitungUmur($tahunLahir, $tahunSekarang)
+{
     $hitungUmur = $tahunSekarang - $tahunLahir;
     echo $hitungUmur . "<br>";
     echo $tahunSekarang - $tahunLahir;
 }
 
-hitungUmur(2002,2023);
+hitungUmur(2002, 2023);
 echo '<br>';
 hitungUmur(1990, 2023);
 echo '<br>';
@@ -19,4 +20,4 @@ function greeting($nama)
     return "Hai, namaku $nama!";
 }
 
-echo greeting("Zharifah");
+echo greeting("Dzzhar");

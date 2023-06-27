@@ -1,17 +1,17 @@
 <?php
 // asosiatif array
 $profileArray = [
-    "nama" => "Zharifah Dzikra Purnomo", 
+    "nama" => "dzzhar",
     "kelas" => "TI11"
 ];
 
 echo $profileArray["nama"] . "<br>";
-echo $profileArray["kelas"]. "<br>";
+echo $profileArray["kelas"] . "<br>";
 
 //multi dimensional array
 $profileMultiArray = [
     [
-        "nama" => "Zharifah Dzikra Purnomo",
+        "nama" => "dzzhar",
         "semester" => 2
     ], [
         "nama" => "Fauzi",
@@ -22,7 +22,7 @@ $profileMultiArray = [
     ]
 ];
 
-foreach($profileMultiArray as $profile){
+foreach ($profileMultiArray as $profile) {
     echo $profile["nama"] . "<br>";
-    echo $profile["semester"]. "<br>";
+    echo $profile["semester"] . "<br>";
 }

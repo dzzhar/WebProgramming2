@@ -1,5 +1,5 @@
 <?php
-$nama = "Zharifah Dzikra Purnomo";
+$nama = "Dzzhar";
 $kelas = "TI 11";
 $ipk = 4.00;
 
