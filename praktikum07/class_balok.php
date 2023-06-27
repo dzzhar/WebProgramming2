@@ -24,4 +24,3 @@ $objekBalok->tinggi = 3;
 echo $objekBalok->hitungVolume();
 echo "<br>";
 echo $objekBalok->hitungLuasPermukaan();
-?>
